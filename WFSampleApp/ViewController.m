@@ -21,7 +21,7 @@
 - (void)viewDidAppear:(BOOL)animated {
   WFViewController *wfViewController = [[WFViewController alloc] initWithURL:@"http://google.com"
                                                                     formName:@"q"
-                                                             formDescription:@"hogehoge"];
+                                                             formDescription:@"hello"];
   [wfViewController enableBackButton:YES];
   [self presentViewController:wfViewController
                      animated:YES
